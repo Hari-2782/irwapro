@@ -33,6 +33,7 @@ ENV/
 .myenv/
 .pyvenv/
 
+
 # Jupyter Notebook files
 .ipynb_checkpoints/
 
@@ -93,3 +94,5 @@ poetry.lock
 # Ignore large or sensitive files that shouldn't be pushed to Git (optional)
 *.pkl
 *.csv
+# Ignore .env files
+.env
